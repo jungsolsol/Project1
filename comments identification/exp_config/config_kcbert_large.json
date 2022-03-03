@@ -2,7 +2,7 @@
     "data_dir": "/content/drive/MyDrive/Colab Notebooks/traffic forecasting/Project1/comments identification/data",
     "result_dir": "/content/drive/MyDrive/Colab Notebooks/traffic forecasting/Project1/comments identification/result/",
     "config_dir": "/content/drive/MyDrive/Colab Notebooks/traffic forecasting/Project1/comments identification/exp_config/",
-    "pretrained_model": "beomi/kcbert-base",  
+    "pretrained_model": "beomi/kcbert-large",  
     "architecture": "BertForSequenceClassification",
     "tokenizer_class": "BertTokenizer",
     "num_classes": 6,
@@ -14,6 +14,6 @@
     "eval_batch_size": 32,
     "learning_rate": 1e-6,
     "warmup_proportion": 0.1,
-    "run": "change loss function",
+    "run": "kcbert_large",
     "patience": 10
 }
